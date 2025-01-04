@@ -1,5 +1,5 @@
 import { Duplex } from 'node:stream';
-// @ts-expect-error --- netstring doesn't have types.
+// @ts-ignore
 import * as netstring from 'netstring';
 import { EnhancedEventEmitter } from './enhancedEvents';
 import { InvalidStateError } from 'mediasoup-client/lib/errors';
