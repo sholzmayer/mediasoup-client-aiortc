@@ -756,7 +756,6 @@ export class Handler extends HandlerInterface {
 		};
 
 		return {
-			// @ts-expect-error --- TODO:
 			// https://github.com/versatica/mediasoup-client-aiortc/issues/24
 			dataChannel,
 			sctpStreamParameters,
@@ -1153,7 +1152,6 @@ export class Handler extends HandlerInterface {
 			this.#hasDataChannelMediaSection = true;
 		}
 
-		// @ts-expect-error --- TODO:
 		// https://github.com/versatica/mediasoup-client-aiortc/issues/24
 		return { dataChannel };
 	}
